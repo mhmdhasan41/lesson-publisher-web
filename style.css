@@ -93,3 +93,15 @@ button {
     background: #25D366;
     color: black;
 }
+.post {
+    text-align: center;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.post-text {
+    white-space: pre-wrap;
+    text-align: left;
+}
