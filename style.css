@@ -1,0 +1,95 @@
+body {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0d1f16;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #153524;
+}
+
+.subtitle {
+    color: #d4c18a;
+}
+
+.card {
+    background: #12291d;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #d4c18a;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #d4c18a;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    background: #d4c18a;
+    color: black;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.post-card {
+    background: #1c392b;
+    min-width: 300px;
+    padding: 20px;
+    border: 1px solid #d4c18a;
+    border-radius: 10px;
+}
+
+.post-title {
+    font-size: 20px;
+    color: #d4c18a;
+}
+
+.copy-btn, .whatsapp-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copy-btn {
+    background: #d4c18a;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: black;
+}
