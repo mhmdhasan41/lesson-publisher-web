@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ناشر الدروس</title>
+    style.css
+</head>
+<body>
+
+    <header>
+        <h1>📘 ناشر الدروس</h1>
+        <p class="subtitle">تطبيق ويب لإدارة ونشر الحصة الأسبوعية</p>
+    </header>
+
+    <main>
+
+        <!-- إعداد الأسبوع -->
+        <section class="card">
+            <h2>إعداد الأسبوع</h2>
+
+            <label>الأسبوع:</label>
+            <input id="week" type="number" placeholder="أدخل رقم الأسبوع">
+
+            <label>عنوان الدرس:</label>
+            <input id="title" type="text" placeholder="مثال: الطاقة المتجددة">
+
+            <label>رفع بطاقة الأسبوع (PDF):</label>
+            <input id="pdfMain" type="file" accept="application/pdf">
+
+            <label>رفع البطاقة المجابة (PDF):</label>
+            <input id="pdfAnswered" type="file" accept="application/pdf">
+
+            <button onclick="analyze()">تحليل ✅</button>
+        </section>
+
+        <!-- المنشورات -->
+        <section id="postsSection" class="card hidden">
+            <h2>منشورات الجاهزة</h2>
+            <div id="postsContainer" class="carousel"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>تطبيق ناشر الدروس © 2026</p>
+    </footer>
+
+    app.jsscript>
+</body>
+</html>
